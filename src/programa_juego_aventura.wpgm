@@ -1,0 +1,16 @@
+import wollok.game.*
+import nivel1.*
+import fondo.*
+
+program juego_aventura {
+	
+	game.title("Ed, Edd y Eddy")
+	game.cellSize(80)
+	game.height(7)
+	game.width(15)
+	game.boardGround("fondoblanco.jpg")
+	
+	nivelBloques.configurate()	
+	
+	game.start()
+}
